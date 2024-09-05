@@ -1,0 +1,12 @@
+VARIABLENAME,VARIABLE DESCRIPTION
+ID,Unique ID for each row
+exp_id,Unique identifier for each experiment
+precursor_mz,Mass-to-charge (m/z) of the precursor MS1 reading
+precursor_mass,Mass of the precursor MS1 reading
+precursor_charge,Charge of the precursor MS1 reading
+retention_time,Time of elution from the HPLC
+mz_array,Mass-to-charge values of the MS2 spectrum (peaks x-axis)
+intensity_array,Intensity values of the MS2 spectrum (peaks y-axis)
+preds_beam_0-5,InstaNovo predicted peptide in decreasing order of confidence
+log_probs_beam_0-5,InstaNovo log-probabilities of the redicted peptide in decreasing order of confidence
+target,This is what you are predicting: the ground truth peptide

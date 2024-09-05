@@ -1,0 +1,20 @@
+- [] Create a Github repo (Joe)
+- WhatsApp group creation (Joe)
+- [] Review the competition. as well as the last presentation,  and related material (everyone)
+- [] Review the prompt about teaching a topic (all)
+- [] Make a pipeline to go from the idea to model 
+        - Exploratory Data Analysis (Sylvia) - Review the DVC presentation pandas profiling (Profile report)
+        - Data Version control(mlflow and DVC) [BlackEagle]
+        - Feature Engineering [BlackEagle]
+        - model selection [Ben]
+- [] Make a summarization of how to win competitions on Kaggle (Sylvia & Ben)
+
+Github
+Umbaji001
+Shuyib
+sylviajebet
+joe052
+
+Communication
+WhatsApp
+
