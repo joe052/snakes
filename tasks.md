@@ -1,0 +1,13 @@
+- [x] Create a Github repo (Joe)
+- [x] WhatsApp group creation (Joe)
+- [] Review the competition. as well as the last presentation,  and related material (everyone)
+- [] Review the prompt about teaching a topic (all)
+- [] Make a pipeline to go from the idea to model 
+        - Exploratory Data Analysis []
+        - Review the DVC presentation pandas profiling (Profile report) []
+        - Data Version control(mlflow and DVC) []
+        - Feature Engineering []
+        - model selection []
+- [x] Make a summarization of how to win competitions on Kaggle
+- [x] Review the notebook provided by InstaDeep
+
