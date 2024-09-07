@@ -14,3 +14,53 @@ How can we help? In this hackathon we will be improving existing _de novo_ pepti
 InstaDeep has developed a transformer-based _de novo_ peptide sequencing model **InstaNovo** [[preprint](https://www.biorxiv.org/content/10.1101/2023.08.30.555055v3)][[code](https://github.com/instadeepai/InstaNovo)]. 
 We will provide you with the inputs AND outputs of InstaNovo along with some additional metadata (eg. retention time). The InstaNovo outputs includes the top 5 beam predictions along with their model confidences.
 Your task is to use these inputs and metadata to re-calibrate the confidence measurements and filter out any false positives in order to maximise the AUC!
+
+## How to setup your environment   
+# Setup virtual environment with Python 3.12
+
+```bash
+python3 -m venv venv
+source venv/bin/activate 
+pip install --no-cache-dir upgrade pip
+pip install --no-cache-dir -r requirements.txt
+```
+Or
+
+``` bash
+make install
+```
+
+# Run the notebook   
+```bash
+jupyter notebook 
+```
+
+## Experiments
+ I have altered the isoleucine and isoleucine. Trained a standard model. AUC 
+
+              precision    recall  f1-score   support
+
+       False       0.80      0.62      0.70      3372
+        True       0.83      0.92      0.87      6628
+
+    accuracy                           0.82     10000
+   macro avg       0.81      0.77      0.78     10000
+weighted avg       0.82      0.82      0.81     10000
+
+accuracy: 0.8177
+
+- Adjusting the classes with the class weight parameter of Logistic Regression
+precision    recall  f1-score   support
+
+       False       0.68      0.73      0.70      3372
+        True       0.86      0.82      0.84      6628
+
+    accuracy                           0.79     10000
+   macro avg       0.77      0.78      0.77     10000
+weighted avg       0.80      0.79      0.79     10000
+
+balanced_accuracy: 0.7765041690201746
+accuracy: 0.794
+- Add a StandardScaler to the pipeline
+- Add ModelSelection to the pipeline with Mlflow
+
