@@ -1,0 +1,11 @@
+koinapy
+matplotlib
+numpy
+pandas
+scikit-learn
+mlflow
+ydata-profiling
+ipykernel
+xgboost
+ydata-profiling
+ipywidgets
